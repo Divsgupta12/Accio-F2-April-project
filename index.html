@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Student Data Table</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Student Portal</h1>
+    </div>
+    <div class="search-container">
+      <form class="search-form">
+        <input type="search" id="search-input" placeholder="Search by name or email">
+        <input type="submit" value="Search" class="btn">
+      </form>
+    </div>
+
+    <div class="sort-buttons">
+      <button class="btn" id="sort-name-asc">Sort A->Z</button>
+      <button class="btn" id="sort-name-desc">Sort Z->A</button>
+      <button class="btn" id="sort-marks">Sort by Marks</button>
+      <button class="btn" id="sort-passing">Sort by Passing</button>
+      <button class="btn" id="sort-class">Sort by Class</button>
+      <button class="btn" id="sort-gender">Sort by Gender</button>
+    </div>
+    <table class="student-table ">
+      <thead class="table-head">
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Gender</th>
+          <th>Class</th>
+          <th>Marks</th>
+          <th>Passing</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody class="table-body"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

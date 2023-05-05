@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+  }
+  .header {
+    position: relative;
+    min-height: 8vh;
+    background-color: black;
+    color: white;
+  }
+  .search-container{
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .search-form{
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .search-form input {
+    min-height: 100%;
+  }
+  .search-form input[type="search"] {
+    width: 78%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .search-form input[type="submit"] {
+    width: 20%;
+    background: black;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .sort-buttons{
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .btn{
+    width: 16%;
+    background: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  table, td, th {
+    border: 1px solid;
+    padding: 10px;
+  }
+  .student-table{
+    
+    margin-top: 1rem;
+    text-align: left;
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+  }
+  .table-head{
+    height: 50px;
+  }
+  .avatar {
+    width: 38px;
+    height: 38px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
